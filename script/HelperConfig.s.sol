@@ -1,11 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-
-// 1. Deploy mocks when we are on a local anvil chain
-// 2. Keep track of contract address accross different chains
-// Sepolia ETH/USD Address is 0x694AA1769357215DE4FAC081bf1f309aDC325306
-// Mainnet ETH/USD Address is 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
-
 pragma solidity ^0.8.18;
 
 import {Script} from "lib/forge-std/src/Script.sol";
